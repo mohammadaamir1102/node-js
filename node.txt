@@ -1,0 +1,70 @@
+what is the REPL
+READ EVAL PRINT LOOP
+
+it is a feature of node useful experimenting with node js
+and debug javaScript code 
+
+ do
+... {
+... a++
+... console.log(`value of a ${a}`)
+... }
+... while(a<6)
+
+
+REPL
+1= js expression 
+2= use variables
+3= multi line code LOOP
+4= use underscore (_) for getting last result
+5= can use editor mode 
+
+<<<<<<<<<<<<<<<<<<node js core mode>>>>>>>>>>>>>>>>>>
+
+a set of the function i want to include in my application 
+
+njs has got a set of the built-in  modules which i can use without any further installation 
+
+like i want to use fs module so we have to write like that
+
+const fs=require.("fs");
+
+<<<<<<<<< CRUD >>>>>>>>>>
+1= create a folder
+2= create a file like data.txt and data into it.
+3= add more data into that file at the end of existing data.
+4= read the data without getting the buffer data at first
+5= rename the file name to another name
+6= now delete file and folder
+
+we can delete any file by fs like
+
+fs.unlinkSync("file name")
+
+we can delete any folder name by fs like
+
+fs.rmdirSync("folder name")
+
+
+<<<<<<<<<<<<<<<<<<<< Asynchronous >>>>>>>>>>>>>>>>>>>
+
+at a time multiple work happened known as Asynchronous
+ like if we are creating a file so we have to use a call back function
+
+
+ <<<<<<<<<<<<<<<<<<< Synchronous >>>>>>>>>>>>>>>>>>>>
+
+ every is done to be sequence form know as Synchronous
+
+NPM  (node package manager)
+if we want to use this then we have to initialized npm in the directory where we want to use 
+
+like we  have a folder of Node so if i use here npm then inside Node folder we have to write like npm init 
+
+
+
+
+
+
+
+
